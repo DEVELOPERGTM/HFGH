@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url("bg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.nav{
+    height: 4rem;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    padding: 0 9rem;
+}
+
+.item a{
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.item{
+    column-gap: 40px;
+    display: flex;
+}
+
+.container{
+    display: flex;
+    column-gap: 167px;
+    margin-top: 50px;
+    align-items: center;
+}
+
+.left{
+    width: 50%;
+    padding: 10px 77px;
+    line-height: 23px;
+    background: white;
+    height: 15rem;
+    display: flex;
+    border: 10px solid;
+    border-image: linear-gradient(45deg, purple, rgb(245, 0, 143), rgb(226, 22, 22), rgb(38, 179, 80)) 1;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 8px !important;
+    margin-left: 41px;
+}
+
+.left h1{
+    color: red;
+    font-size: 30px;
+    width: max-content;
+}
+
+.left p{
+    padding-top: 20px;
+}
+
+.right img{
+    width: 260px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all ease 0.5s;
+}
+
+.right .img1:hover{
+     transform: scale(1.2); 
+}
+
+.right .img2:hover{
+     transform: scale(1.2); 
+}
+.right .img3:hover{
+     transform: scale(1.2); 
+}
+.right .img4:hover{
+     transform: scale(1.2); 
+}
+.right .img5:hover{
+     transform: scale(1.2); 
+}
+
+.right{
+    display: flex;
+    column-gap: 30px;
+    overflow: hidden;
+    width: 120%;
+}
+
+.img-sec img{
+    width: 260px;
+    border-radius: 8px !important;
+    margin: 20px;
+    cursor: pointer;
+    transition: all ease 0.5s;
+}
+
+.img{
+    column-gap: 30px;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    flex-wrap: wrap;
+}
+
+.img-sec h1{
+    padding-left: 53px;
+    margin-top: 50px;
+    font-size: 30px;
+    text-decoration: underline;
+    color: white;
+}
+
+.img-sec .img1:hover{
+    transform: scale(1.2); 
+}
+.img-sec .img2:hover{
+    transform: scale(1.2); 
+}
+.img-sec .img3:hover{
+    transform: scale(1.2); 
+}
+.img-sec .img4:hover{
+    transform: scale(1.2); 
+}
+.img-sec .img5:hover{
+    transform: scale(1.2); 
+}
+.img-sec .img6:hover{
+    transform: scale(1.2); 
+}
+.img-sec .img7:hover{
+    transform: scale(1.2); 
+}
